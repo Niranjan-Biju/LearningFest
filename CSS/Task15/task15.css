@@ -1,0 +1,73 @@
+body{
+    background-image:url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 500px;
+    height: 800px;
+    background-color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.details{
+    text-align: left;
+    margin-left: 20px;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+textarea{
+    width: 90%;
+    background-color: rgb(234, 232, 232);
+    padding: 5px;
+    border-style: hidden;
+    border-radius: 2cm;
+    resize: none;
+   font-family: cursive;
+   
+}
+#date{
+    
+    width: 90%;
+    background-color: rgb(234, 232, 232);
+    padding: 5px;
+    border-style: hidden;
+    border-radius: 2cm;
+    resize: none;
+   font-family: cursive;
+}
+
+#email{
+    width: 90%;
+    background-color: rgb(234, 232, 232);
+    padding: 5px;
+    border-style: hidden;
+    border-radius: 2cm;
+    resize: none;
+   font-family: cursive;
+}
+#pwd{
+    width: 90%;
+    background-color: rgb(234, 232, 232);
+    padding: 5px;
+    border-style: hidden;
+    border-radius: 2cm;
+    resize: none;
+   font-family: cursive;
+}
+.button{
+   background-color: black;
+   color: white;
+   border-radius: 0%;
+   width: 98%;
+   margin-left: 4px;
+   margin-top: 16px;
+   margin-bottom: -16px;
+}

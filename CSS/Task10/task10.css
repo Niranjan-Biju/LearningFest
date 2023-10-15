@@ -1,0 +1,26 @@
+h1{
+    font-size: 9cqmin;
+}
+.cen{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.lef{
+    text-align: left;
+    font-size: xx-large;
+}
+.rig{
+    text-align: end;
+    font-size: xx-large;
+}
+.cent{
+    text-align: center;
+    
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}

@@ -1,0 +1,12 @@
+h1{
+    color: gray;
+    background: linear-gradient(270deg,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    rgba(255, 0, 0, 1) 100%);
+    border-width: 10px;
+}
