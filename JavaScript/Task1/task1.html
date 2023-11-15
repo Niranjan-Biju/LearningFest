@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>Task 1</title>
+    <link rel="stylesheet" type="text/css" href="task1.css">
+</head>
+<body>
+    <h1>Roll the dice</h1>
+    <div id="box">
+
+    </div>
+    <button id="butto" onclick="display()" >Click me</button>
+    <script>
+        function display()
+        {
+            var x = Math.floor(Math.random() * 6 )+ 1;
+            console.log(x)
+            document.getElementById("box").innerHTML = x;
+        }         
+    </script>
+</body>
+</html>

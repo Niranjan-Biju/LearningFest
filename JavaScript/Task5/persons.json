@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Joanna",
+      "age": 23,
+      "place": "New Orleans",
+      "dob": "12-04-2000"
+    },
+    {
+      "name": "Vance",
+      "age": 35,
+      "place": "Los Angeles",
+      "dob": "23-05-1988"
+    },
+    {
+      "name": "Sushant",
+      "age": 27,
+      "place": "Washington D.C.",
+      "dob": "05-12-1997"
+    },
+    {
+      "name": "Jeffrey",
+      "age": 18,
+      "place": "Texas",
+      "dob": "30-06-2005"
+    },
+    {
+      "name": "Molly",
+      "age": 29,
+      "place": "San Jose",
+      "dob": "12-09-1994"
+    },
+    {
+      "name": "Franklin",
+      "age": 36,
+      "place": "Mississippi",
+      "dob": "31-12-1986"
+    },
+    {
+      "name": "Grace",
+      "age": 22,
+      "place": "Miami",
+      "dob": "2001-01-14"
+    },
+    {
+      "name": "Harry",
+      "age": 47,
+      "place": "Seattle",
+      "dob": "1976-06-21"
+    }
+  ]

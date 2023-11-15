@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Task 4</title>
+    <link rel="stylesheet" type="text/css" href="task4.css">              
+</head>
+<body>
+    <div class="container">
+        <div class="signup-box">
+            <h1 style="text-align: center;">Sign Up</h1>
+            <hr>
+            <form action="newpage.html" onsubmit="return validate()">
+                <label for="Fname">Enter Name</label>
+                <input type="text" name="Fname" id="uname" placeholder="User name" >
+                <br>
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob" placeholder="dd/mm/yy" >
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter email" >
+                <br>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="pass" placeholder="Enter password" >
+                <br>
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" name="confirm_password" id="password" placeholder="Confirm password" >
+                <hr>
+                <input type="submit" id="submit" value="Register" style="margin-left: 220px;">
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function validate() {
+            var uname=document.getElementById("uname").value;
+            var dob=document.getElementById("dob").value;
+            var email=document.getElementById("email").value;
+            var pass=document.getElementById("pass").value;
+            var password=document.getElementById("password").value;
+            
+
+            if(uname.trim()=="" || dob=="" || email=="" || pass=="" || password=="") {
+                alert("Fill the required details")
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+    </script>
+</body>
+</html>

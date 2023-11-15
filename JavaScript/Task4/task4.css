@@ -1,0 +1,15 @@
+label{
+    font-size: 20px;
+}
+#submit{
+    background-color: blue;
+}
+.container{
+    align-content: center;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-left: 700px;
+    margin-right: 700px;
+    background-color: tomato;
+}

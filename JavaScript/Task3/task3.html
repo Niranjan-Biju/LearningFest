@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator</title>
+    <link rel="stylesheet" type="text/css" href="task3.css">
+</head>
+<body>
+
+    <h1>EMI Calculator</h1>
+    <div>
+        <form id="emiForm">
+            <label for="loanAmount">Loan Amount (INR):</label>
+            <input type="number" id="loanAmount" required>
+            <label for="interestRate">Annual Interest Rate (%):</label>
+            <input type="number" id="interestRate" required>
+            <label for="loanTenure">Loan Tenure (Months):</label>
+            <input type="number" id="loanTenure" required>
+            <button type="button" onclick="calculateEMI()">Calculate EMI</button>
+        </form>
+        <h2>Result</h2>
+        <p id="emiResult">Your monthly EMI will be displayed here.</p>
+        <script>
+        function calculateEMI() 
+        {
+            var loanAmount = document.getElementById('loanAmount').value;
+            var interestRate = document.getElementById('interestRate').value / 100 / 12; // Monthly interest rate
+            var loanTenure = document.getElementById('loanTenure').value;
+            var emi = (loanAmount * interestRate * Math.pow(1 + interestRate, loanTenure)) / (Math.pow(1 + interestRate, loanTenure) - 1);
+            document.getElementById('emiResult').innerHTML = 'Your monthly EMI: INR ' + emi.toFixed(2);
+        }
+        </script>
+    </div>
+</body>
+</html>
